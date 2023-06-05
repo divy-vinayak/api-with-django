@@ -17,3 +17,16 @@ or
 
 ## Create the django project
 `$ django-admin startproject drinks .`
+
+## Create admin to access /admin endpoint in the app
+`$ python manage.py createsuperuser`
+
+### created a drink model class in drinks/models.py
+### next step - make migrations
+`$ python manage.py makemigrations drinks`
+
+### apply these migrations using
+`$ python manage.py migrate`
+
+## To see these db tables in /admin endpoint
+### register the models in drinks/admin.py
