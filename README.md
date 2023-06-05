@@ -30,3 +30,6 @@ or
 
 ## To see these db tables in /admin endpoint
 ### register the models in drinks/admin.py
+
+## Next up setting up apis
+1. In INSTALLED_APPS in drinks/setting.py, add 'rest_framework'
